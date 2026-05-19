@@ -7,10 +7,16 @@ export function Contact() {
       <div className="rounded-2xl border border-border bg-bg-1 p-8 md:p-12">
         <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
           <div className="max-w-xl">
-            <h2 className="text-3xl md:text-4xl font-semibold">Готов взяться за проект</h2>
+            <h2 className="text-3xl md:text-4xl font-semibold">Привет, меня зовут Степан и я действительно хочу взяться за этот проект</h2>
             <p className="mt-3 text-text-1">
-              Это рабочий прототип под ваш заказ. Личного сайта пока нет — вот резюме на hh.ru.
-              Или просто напишите в Telegram / на почту.
+              Свой личный сайт мне пока было лень делать, но зато не лень было собрать вам прототип :) Здесь есть ссылка на мое резюме на hh.ru,
+              и в Telegram / на почту.
+              <br/>
+              <br/>
+              Буду рад сотрудничеству.
+              <br/>
+              <br/>
+              P.S.: От себя добавлю, что хорошо знаком с тематикой. Являюсь активным польователем фрештьюнс и сферум (на базе сферума кстати я и собрал вам прототип). В общем пишите - обсудим.
             </p>
           </div>
           <div className="flex flex-wrap gap-3">
