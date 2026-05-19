@@ -1105,7 +1105,7 @@ export default function ProfilePage() {
         <div className="flex items-center gap-4">
           <Avatar name="Стёпа С" className="h-14 w-14 text-base" />
           <div>
-            <div className="text-lg font-medium">Стёпа Сичкар</div>
+            <div className="text-lg font-medium">Стёпа Сичкарь</div>
             <div className="text-sm text-text-2">stepan.sichkar@example.com</div>
           </div>
           <Button variant="secondary" className="ml-auto">Сменить фото</Button>
@@ -1114,7 +1114,7 @@ export default function ProfilePage() {
       <Card>
         <div className="grid gap-4 md:grid-cols-2">
           <Field label="Имя"><Input defaultValue="Стёпа" /></Field>
-          <Field label="Фамилия"><Input defaultValue="Сичкар" /></Field>
+          <Field label="Фамилия"><Input defaultValue="Сичкарь" /></Field>
           <Field label="Email"><Input defaultValue="stepan.sichkar@example.com" /></Field>
           <Field label="Телефон"><Input placeholder="+7 ..." /></Field>
           <Field label="Сценический псевдоним"><Input defaultValue="NEONOVA" /></Field>
