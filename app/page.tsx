@@ -1,3 +1,19 @@
+import { LandingHeader } from '@/components/landing/LandingHeader';
+import { Hero } from '@/components/landing/Hero';
+import { Features } from '@/components/landing/Features';
+import { Pricing } from '@/components/landing/Pricing';
+import { CTA } from '@/components/landing/CTA';
+import { LandingFooter } from '@/components/landing/LandingFooter';
+
 export default function HomePage() {
-  return <main className="p-10">MusicHub — landing placeholder</main>;
+  return (
+    <>
+      <LandingHeader />
+      <Hero />
+      <Features />
+      <Pricing />
+      <CTA />
+      <LandingFooter />
+    </>
+  );
 }
