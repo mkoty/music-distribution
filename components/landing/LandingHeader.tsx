@@ -15,7 +15,7 @@ export function LandingHeader() {
         <nav className="hidden md:flex items-center gap-6 text-sm text-text-1">
           <a href="#features">Возможности</a>
           <a href="#pricing">Тарифы</a>
-          <a href="#cta">Начать</a>
+          <a href="#contact">Контакты</a>
         </nav>
         <div className="ml-auto flex items-center gap-2">
           <Link href="/login"><Button variant="ghost" size="sm">Войти</Button></Link>
